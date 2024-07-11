@@ -1,0 +1,50 @@
+Package: ETASbootstrap
+Type: Package
+Title: Bootstrap Confidence Interval Estimation for 'ETAS' Model Parameters
+Description: The 2-D spatial and temporal Epidemic Type Aftershock Sequence ('ETAS') Model is
+ widely used to 'decluster' earthquake data catalogs. Usually, the calculation of standard
+ errors of the 'ETAS' model parameter estimates is based on the Hessian matrix derived from
+ the log-likelihood function of the fitted model. However, when an 'ETAS' model is fitted to
+ a local data set over a time period that is limited or short, the standard errors based on
+ the Hessian matrix may be inaccurate. It follows that the asymptotic confidence intervals
+ for parameters may not always be reliable. As an alternative, this package allows for the
+ construction of bootstrap confidence intervals based on empirical quantiles for the parameters
+ of the 2-D spatial and temporal 'ETAS' model. This version improves on Version 0.1.0 of the
+ package by enabling the study space window (renamed 'study region') to be polygonal rather
+ than merely rectangular. A Japan earthquake data catalog is used in a second example to
+ illustrate this new feature.
+Version: 0.2.0
+Authors@R: c(
+  person(given = "Renjie", family = "Peng", 
+         email = "renjie.peng@mail.mcgill.ca", 
+         role = c("aut", "cre")
+         ),
+  person(given = "Pierre", family = "Dutilleul", 
+         email = "pierre.dutilleul@mcgill.ca", 
+         role = "aut",
+         comment = c(ORCID = "0000-0002-2381-3421")
+         ),
+  person(given = "Christian", family = "Genest", 
+         email = "christian.genest@mcgill.ca", 
+         role = "aut",
+         comment = c(ORCID = "0000-0002-1764-0202")
+         ))
+Author: Renjie Peng [aut, cre],
+        Pierre Dutilleul [aut] (<https://orcid.org/0000-0002-2381-3421>),   
+        Christian Genest [aut] (<https://orcid.org/0000-0002-1764-0202>)
+Maintainer: Renjie Peng <renjie.peng@mail.mcgill.ca>
+Depends: R (>= 3.3.0)
+Imports: 
+    ETAS (>= 0.5.1),
+    MASS (>= 7.3.58.2),
+    spatstat.geom (>= 3.2.8),
+    stats (>= 4.2.2),
+    utils (>= 4.2.2)
+License: MIT + file LICENSE
+LazyData: true
+Encoding: UTF-8
+RoxygenNote: 7.3.1
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+NeedsCompilation: no
+Packaged: 2023-05-16 20:10:33 UTC; rjpeng

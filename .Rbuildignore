@@ -1,0 +1,4 @@
+^\.github$
+^\.git$
+^\.Rproj.user$
+^\.DS_Store$
