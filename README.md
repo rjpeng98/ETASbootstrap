@@ -1,3 +1,7 @@
+<!-- badges: start -->
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ETASbootstrap)](https://cran.r-project.org/web/packages/ETASbootstrap/index.html)
+<!-- badges: end -->
+
 # ETASbootstrap
 
 ## License
