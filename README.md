@@ -1,5 +1,6 @@
 <!-- badges: start -->
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ETASbootstrap)](https://cran.r-project.org/web/packages/ETASbootstrap/index.html)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ETASbootstrap)](https://cran.r-project.org/package=ETASbootstrap)
+[![CRAN_Download_Count](http://cranlogs.r-pkg.org/badges/ETASbootstrap)](https://cran.r-project.org/package=ETASbootstrap)
 <!-- badges: end -->
 
 # ETASbootstrap
