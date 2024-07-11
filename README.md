@@ -1,6 +1,6 @@
 ## License
 
-This project is licensed under either of
+This project is licensed under
 
 - [MIT license](https://opensource.org/licenses/MIT) ([`LICENSE-MIT`](LICENSE-MIT))
 
