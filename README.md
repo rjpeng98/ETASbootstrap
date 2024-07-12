@@ -5,6 +5,8 @@
 
 # ETASbootstrap
 
+For detailed documentation please visit [the user manual](https://cran.r-project.org/web/packages/ETASbootstrap/ETASbootstrap.pdf).
+
 ## License
 
 This project is licensed under
