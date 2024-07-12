@@ -1,6 +1,7 @@
 <!-- badges: start -->
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ETASbootstrap)](https://cran.r-project.org/package=ETASbootstrap)
 [![CRAN_Download_Count](http://cranlogs.r-pkg.org/badges/ETASbootstrap)](https://cran.r-project.org/package=ETASbootstrap)
+[![R Build Status](https://github.com/rjpeng98/ETASbootstrap/workflows/R-CMD-check/badge.svg)](https://github.com/rjpeng98/ETASbootstrap/actions)
 <!-- badges: end -->
 
 # ETASbootstrap
