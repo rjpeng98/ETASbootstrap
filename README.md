@@ -32,6 +32,11 @@ If [remotes](https://github.com/r-lib/remotes) is not installed, you should firs
 install.packages('remotes')
 ```
 
+## Test
+
+A quick-test file has been included in the repository and can be run directly after downloading.
+The online checking results for the package are available at [https://mirror.its.dal.ca/cran/web/checks/check_results_ETASbootstrap.html](https://mirror.its.dal.ca/cran/web/checks/check_results_ETASbootstrap.html).
+
 ## License
 
 This project is licensed under
